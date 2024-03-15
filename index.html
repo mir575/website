@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science & Cybersecurity Resources</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #12172b;
+            /* Your desired background color */
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="edulogo2.png"></a>
+            <div class="nav-links" id=" navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to TechGuardianz</h1>
+            <p>Are you thinking about a career in Software Development or Cybersecurity?<br>
+                Don't worry as we are here to provide all the useful information to help you choose a path!.
+            </p>
+            <a href="about.html" class="hero-btn">Visit Us Find Out More</a>
+        </div>
+    </section>
+
+    <section class="course">
+        <h1> Courses</h1>
+        <p>Bachelor Degrees</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Software Development</h3>
+                <p>Unlock the world of coding with Software Development. Perfect for aspiring developers, this program
+                    guides you through the journey of creating impactful software, setting the stage for a thriving
+                    career in tech.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Cybersecurity</h3>
+                <p>Step into the critical field of Cyber Security and learn to protect digital assets from cyber
+                    threats. Our course equips you with the latest skills to secure networks, prevent attacks, and
+                    ensure data privacy, preparing you for a high-demand career in security.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="careers">
+        <h2>Launch Your Career with TechGuardianz</h2>
+        <p>Embark on a rewarding career journey tailored to your skills and ambitions.<br> Discover a world of
+            opportunities
+            where you can grow, innovate, and make a difference. Join us in shaping the future.</p>
+        <a href="careers.html" class="hero-btn">Explore Careers</a>
+    </section>
+
+    <section class="contact">
+        <h5>If you wish to get more advice,<br> Please do not hesitate to Contact us.</h5>
+        <a href="contact.html" class="hero-btn">Contact Us</a>
+    </section>
+
+
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <img src="edulogo2.png" alt="Grey owl holding a scroll and wearing a graduation cap">
+            </div>
+        </div>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/techguardianz/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/TechGuardianz" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>

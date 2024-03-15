@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Science & Cybersecurity Resources</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #12172b;
+            font-family: "Poppins", sans-serif;
+            /* Your desired background color */
+        }
+
+        .sub-header {
+            background-image: url(tenor\ \(3\).gif);
+            /*background-size: cover*/
+            background-size: cover;
+            /* or 'cover' depending on your need */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="edulogo2.png"></a>
+            <div class="nav-links" id=" navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="profile-container">
+            <h1 class="heading"><span></span>Meet our Team<br></h1>
+            <div class="profiles">
+                <div class="profile">
+                    <img src="Hasan.png" class="profile-img">
+                    <h3 class="user-name">Hasan Javid</h3>
+                    <h5>Cybsersecurity Student</h5>
+                    <p>Second year student studying cybersecurity from Derby,
+                        aiming to eventually become an IT security specialist for an inhouse company</p>
+                </div>
+                <div class="profile">
+                    <img src="Saqib.png" class="profile-img">
+                    <h3 class="user-name">Saqib Azam</h3>
+                    <h5>Cybsersecurity Student</h5>
+                    <p>Aspiring second year cyber security student with a
+                        passion for safeguarding digital landscaping.</p>
+                </div>
+                <div class="profile">
+                    <img src="mir.JPG" class="profile-img">
+                    <h3 class="user-name">Mir Ahmed</h3>
+                    <h5>Software Dev Student</h5>
+                    <p>Second year Computer Science student with a focus on software development at the
+                        University of Derby, Aims to become a Software Developer</p>
+                </div>
+                <div class="profile">
+                    <img src="Azaria.png" class="profile-img">
+                    <h3 class="user-name">Azaria</h3>
+                    <h5>Cybsersecurity Student</h5>
+                    <p>Passionate second-year cyber security enthusiast unraveling the intricacies of digital
+                        defense with a knack for problem-solving aiming to be a cyber security analyst.</p>
+                </div>
+                <div class="profile">
+                    <img src="Matthew.png" class="profile-img">
+                    <h3 class="user-name">Matthew Poon</h3>
+                    <h5>Cybsersecurity Student</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem error velit veniam non hic
+                        consequatur laboriosam, explicabo facere eum odio, distinctio iusto excepturi. Ex maxime et non
+                        cumque, magnam quia.</p>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="careers.html">CAREERS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <img src="edulogo2.png" alt="Grey owl holding a scroll and wearing a graduation cap">
+            </div>
+        </div>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/techguardianz/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/TechGuardianz" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
